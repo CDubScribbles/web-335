@@ -1,0 +1,51 @@
+{
+    "viewers": [
+        {
+            "_id": "v001",
+            "firstName": "Cliff",
+            "lastName": "Smith"
+        },
+        {
+            "_id": "v002",
+            "firstName": "Maya",
+            "lastName": "Chen"
+        }
+    ],
+    "movies": [
+        {
+            "_id": "m001",
+            "movieName": "The Midnight Library",
+            "Genre": "Fantasy"
+        },
+        {
+            "_id": "m002",
+            "movieName": "Edge of Tomorrow",
+            "Genre": "Sci-Fi"
+        },
+        {
+            "_id": "m003",
+            "movieName": "Knives Out",
+            "Genre": "Mystery"
+        }
+    ],
+    "ratings": [
+        {
+            "_id": "r001",
+            "ratingScore": 4.5,
+            "viewerId": "v001",
+            "movieId": "m001"
+        },
+        {
+            "_id": "r002",
+            "ratingScore": 5,
+            "viewerId": "v001",
+            "movieId": "m002"
+        },
+        {
+            "_id": "r003",
+            "ratingScore": 4,
+            "viewerId": "v002",
+            "movieId": "m003"
+        }
+    ]
+}
