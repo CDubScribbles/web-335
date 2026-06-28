@@ -1,0 +1,48 @@
+{
+    "users": [
+        {
+            "_id": "u001",
+            "firstName": "Cliff",
+            "lastName": "Smith",
+            "devices": [
+                {
+                    "_id": "d001",
+                    "deviceName": "iPhone 15",
+                    "deviceType": "Smartphone",
+                    "charger_id": "c001"
+                },
+                {
+                    "_id": "d002",
+                    "deviceName": "iPad Air",
+                    "deviceType": "Tablet",
+                    "charger_id": "c002"
+                }
+            ]
+        },
+        {
+            "_id": "u002",
+            "firstName": "Maya",
+            "lastName": "Chen",
+            "devices": [
+                {
+                    "_id": "d003",
+                    "deviceName": "Pixel 8",
+                    "deviceType": "Smartphone",
+                    "charger_id": "c001"
+                }
+            ]
+        }
+    ],
+    "chargers": [
+        {
+            "_id": "c001",
+            "chargerType": "USB-C Fast Charger",
+            "voltage": 9
+        },
+        {
+            "_id": "c002",
+            "chargerType": "USB-C PD Charger",
+            "voltage": 20
+        }
+    ]
+}
